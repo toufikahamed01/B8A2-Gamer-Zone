@@ -45,6 +45,49 @@
         font-size: 1.5rem;
         padding-bottom: 20px;
     }
+    .funny-videos-container{
+        flex-direction: column;
+    }
+    .online-games-title{
+        font-size: 1.8rem;
+    }
+    .online-games-description{
+        font-size: 0.8rem;
+    }
+    
+    .play-games-online-container{
+        flex-direction: column;
+    }
+    .play-games-online-content .play-games-title{
+        margin: 0px;
+        padding: 20px;
+    }
+    .big-img{
+        width: 70%;
+    }
+    .small-img{
+        width: 40%;
+        position: relative;
+        top: -100px;
+        left: 210px;
+    }
+    .play-games-online-content .play-games-title{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .play-games-online-content .play-games-description{
+        font-size: 0.8rem;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .games-link-container-one{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .games-link-container-two{
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 
