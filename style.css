@@ -17,7 +17,7 @@ header{
 }
 .logo-title > h3{ 
     text-align: center;
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: 700;
 }
 .logo-title > h3 > span{
@@ -46,7 +46,7 @@ header{
     text-decoration: none;
     color: #3C354F;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 500;
 }
 .nav-list-container > ul > li:last-child{
@@ -57,60 +57,51 @@ header{
 .fa-youtube{
     margin-right: 10px;
     color: red;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .fa-tiktok{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 /* banner section style start here */
-.banner-section{
-    background-image: url("images/Group\ 14.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
-.banner-container{
+
+/* .banner-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    max-width: 80vw;
-    margin: 0px auto;
-    padding-top: 20px;
 }
-
 .banner-content{
-    /* width: 50%; */
+    width: 50%;
+    background-image: url("images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 190px;
 }
 .banner-content > h3{
     color: #0B0223;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 .banner-content > h1{
-    font-size: 95px;
+    font-size: 6rem;
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 24px;
 }
 .banner-content  p{
     color: #534C64;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     text-transform: lowercase;
     line-height: 2;
-}
-.banner-img > img{
-    /* width: 50%; */
-    
 }
 .batton-container{
     margin-top: 40px;
 }
 .sing-in-btn{
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 48px;
@@ -121,7 +112,7 @@ header{
 }
 .go-rogue-btn{
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 48px;
@@ -129,3 +120,65 @@ header{
     border: none;
     padding: 20px 40px;
 }
+.banner-img > img{
+    margin-right: 190px;
+}  */
+
+.hide{
+    display: none;
+
+    /* gamer section style start here */
+}
+.gamer-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gamer-section-container{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    width: 80vw;
+    margin: 0 auto;
+    text-align: right;
+}
+.gamer-section-container .gamer-content{
+    display: block;
+    margin: auto 0;
+    align-items: center;
+}
+.gamer-content > h3{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.gamer-content > p{
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 0;
+}
+.gamer-content h4{
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 45px;
+}
+.our-purpose{
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 45px; 
+}
+.btn-primary{
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background-color: #FF42A5;
+    border: none;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+}
+
+/* online games section style here */
+.
