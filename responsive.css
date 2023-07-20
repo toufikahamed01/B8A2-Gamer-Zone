@@ -178,5 +178,7 @@
             gap: 30px;
             justify-content: space-between;
         }
-        
+        .banner-content{
+            order: 1;
+        }
 }
