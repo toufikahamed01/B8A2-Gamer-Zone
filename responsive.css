@@ -3,26 +3,26 @@
         flex-direction: column;
         gap: 20px;
     }
-    /* .banner-container{
-        flex-direction: column-reverse;
-        margin: 0;
+    .banner-container{
+        grid-template-columns: repeat(1,1fr);
     }
-    .banner-img > img{
+    .banner-img > img {
         width: 100%;
-        height: auto;
         margin-right: 0px;
     }
-    .banner-content{
-        padding: 50px;
+    .banner-img{
+        order: -1;
     }
-    .banner-content > h3{
-        font-size: 2rem;
+    .banner-content > div > h3{
+        font-size: 1.8rem;
     }
-    .banner-content > h1{
-        font-size: 3rem;
-        font-weight: 800;
-        margin-bottom: 24px;
-    } */
+    .banner-content > div > h1{
+        font-size: 4rem;
+    }
+    .banner-content > div > p{
+        font-size: 0.8rem;
+        padding-left: 80px;
+    }
     .gamer-section-container{
         flex-direction: column;
     }
@@ -54,7 +54,6 @@
     .online-games-description{
         font-size: 0.8rem;
     }
-    
     .play-games-online-container{
         flex-direction: column;
     }
@@ -88,26 +87,7 @@
         flex-direction: column;
         gap: 20px;
     }
-    .banner-container{
-        grid-template-columns: repeat(1,1fr);
-    }
-    .banner-img > img {
-        width: 100%;
-        margin-right: 0px;
-    }
-    .banner-img{
-        order: -1;
-    }
-    .banner-content > div > h3{
-        font-size: 1.8rem;
-    }
-    .banner-content > div > h1{
-        font-size: 4rem;
-    }
-    .banner-content > div > p{
-        font-size: 0.8rem;
-        padding-left: 80px;
-    }
+    
     .sing-in-btn{
         font-size: 1rem;
         padding: 15px 30px;
