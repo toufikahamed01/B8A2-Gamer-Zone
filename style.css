@@ -63,33 +63,44 @@ header{
     font-size: 1.25rem;
 }
 
+
 /* banner section style start here */
 
 
-/* .banner-container{
-    display: flex;
-    justify-content: space-between;
+.banner-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
 }
-.banner-content{
-    width: 50%;
+.banner-content {
+    width: 100%;
     background-image: url("images/Group\ 14.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 140px 190px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.banner-content > h3{
+.banner-content > div > h3{
     color: #0B0223;
     font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
 }
-.banner-content > h1{
+.banner-content > div > h1{
     font-size: 6rem;
     font-weight: 800;
+    text-align: center;
     text-transform: uppercase;
     margin-bottom: 24px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.banner-content  p{
+.banner-content > div > p {
     color: #534C64;
     font-size: 1.25rem;
     font-weight: 500;
@@ -122,7 +133,7 @@ header{
 }
 .banner-img > img{
     margin-right: 190px;
-}  */
+}
 
 .hide{
     display: none;
@@ -236,12 +247,13 @@ header{
     text-align: center;
     opacity: 0;
     transition: 0.5s;
+    cursor: pointer;
 }
-.fa-play-circle{
-    font-size: 48px;
-    color: white;
+/* .fa-play-circle{
+    font-size: 30px;
+    color: black    ;
     margin-bottom: 15px;
-}
+} */
 .video-icon > h5{
     text-align: center;
     font-size: 1.25rem;

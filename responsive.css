@@ -88,6 +88,32 @@
         flex-direction: column;
         gap: 20px;
     }
+    .banner-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner-img > img {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .banner-content > div > h3{
+        font-size: 1.8rem;
+    }
+    .banner-content > div > h1{
+        font-size: 4rem;
+    }
+    .banner-content > div > p{
+        font-size: 0.8rem;
+        padding-left: 80px;
+    }
+    .sing-in-btn{
+        font-size: 1rem;
+        padding: 15px 30px;
+    }
+    .go-rogue-btn{
+        font-size: 1rem;
+        padding: 15px 30px;
+    }
+
 }
 
 
