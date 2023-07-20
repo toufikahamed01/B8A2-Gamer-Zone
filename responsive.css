@@ -142,16 +142,57 @@
 
 @media screen and (min-width:576px) and (max-width:992px) {
     .nav-container{
-        flex-direction: column;
+        max-width: none;
+        margin: 0px 20px;
         gap: 20px;
+    }
+    .banner-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner-img > img{
+        margin-right: 0px;
+        margin-left: 20px;
     }
     .gamer-section-container{
         flex-direction: column;
+        margin-top: 20px;
+    }
+    .online-games-title{
+        /* font-size: 2rem; */
     }
     .gamer-img > img{
-        width: 100%;
+        max-width: 100%;
     }
-    .gamer-content{
+    .funny-videos-container {
+        flex-wrap: wrap;
+        align-items: center;
         text-align: center;
-    }
+        padding-left: 150px;
+        }
+        .play-games-online-container{
+            flex-direction: column-reverse;
+            max-width: 100%;
+        }
+        .big-img{
+            max-width: 70%;
+            /* position: absolute; */
+            /* margin-right: 500px; */
+        }
+        .small-img{
+            position: relative;
+            max-width: 40%;
+            left: 300px;
+        }
+        .play-games-online-content .play-games-title{
+            margin-top: 0px;
+        }
+        .play-games-online-content .play-games-description{
+            margin-bottom: 30px;
+        }
+        .games-link-container-one, .games-link-container-two{
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-between;
+        }
+        
 }
