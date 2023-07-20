@@ -95,6 +95,9 @@
         width: 100%;
         margin-right: 0px;
     }
+    .banner-img{
+        order: -1;
+    }
     .banner-content > div > h3{
         font-size: 1.8rem;
     }
@@ -134,6 +137,7 @@
         font-size: 1rem;
         padding: 15px 30px;
     }
+    
 
 }
 
